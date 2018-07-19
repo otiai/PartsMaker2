@@ -64,15 +64,6 @@
     <ClCompile Include="GeneratedFiles\Release\moc_EditViewBase.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="EditViewBase.cpp">
-      <Filter>Source Files\View</Filter>
-    </ClCompile>
-    <ClCompile Include="EditViewSrc.cpp">
-      <Filter>Source Files\View</Filter>
-    </ClCompile>
-    <ClCompile Include="DepthViewBase.cpp">
-      <Filter>Source Files\View</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files\Main</Filter>
     </ClCompile>
@@ -97,15 +88,6 @@
     <ClCompile Include="ScribbleBrush.cpp">
       <Filter>Source Files\Controller</Filter>
     </ClCompile>
-    <ClCompile Include="MainWindow.cpp">
-      <Filter>Source Files\View</Filter>
-    </ClCompile>
-    <ClCompile Include="EditViewDst.cpp">
-      <Filter>Source Files\View</Filter>
-    </ClCompile>
-    <ClCompile Include="EditWindow.cpp">
-      <Filter>Source Files\View</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_EditWindow.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
@@ -124,26 +106,44 @@
     <ClCompile Include="GeneratedFiles\Release\moc_ModifierView.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="ModifierView.cpp">
-      <Filter>Source Files\View</Filter>
-    </ClCompile>
-    <ClCompile Include="ModifierWindow.cpp">
-      <Filter>Source Files\View</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_ModifierWindow.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_ModifierWindow.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="Dialogs.cpp">
-      <Filter>Source Files\View</Filter>
-    </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_Dialogs.cpp">
       <Filter>Generated Files\Debug</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_Dialogs.cpp">
       <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthViewBase.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogs.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="EditViewBase.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="EditViewDst.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="EditViewSrc.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="EditWindow.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifierView.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifierWindow.cpp">
+      <Filter>Source Files\View</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -156,13 +156,16 @@
     <CustomBuild Include="DepthViewBase.h">
       <Filter>Source Files\View</Filter>
     </CustomBuild>
+    <CustomBuild Include="Dialogs.h">
+      <Filter>Source Files\View</Filter>
+    </CustomBuild>
     <CustomBuild Include="EditViewBase.h">
       <Filter>Source Files\View</Filter>
     </CustomBuild>
-    <CustomBuild Include="MainWindow.h">
+    <CustomBuild Include="EditWindow.h">
       <Filter>Source Files\View</Filter>
     </CustomBuild>
-    <CustomBuild Include="EditWindow.h">
+    <CustomBuild Include="MainWindow.h">
       <Filter>Source Files\View</Filter>
     </CustomBuild>
     <CustomBuild Include="ModifierView.h">
@@ -171,16 +174,10 @@
     <CustomBuild Include="ModifierWindow.h">
       <Filter>Source Files\View</Filter>
     </CustomBuild>
-    <CustomBuild Include="Dialogs.h">
-      <Filter>Source Files\View</Filter>
-    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_partsmaker2.h">
       <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EditViewSrc.h">
-      <Filter>Source Files\View</Filter>
     </ClInclude>
     <ClInclude Include="ObjectManager.h">
       <Filter>Source Files\Main</Filter>
@@ -215,14 +212,17 @@
     <ClInclude Include="ScribbleBrush.h">
       <Filter>Source Files\Controller</Filter>
     </ClInclude>
-    <ClInclude Include="EditViewDst.h">
-      <Filter>Source Files\View</Filter>
-    </ClInclude>
     <ClInclude Include="RegionMatchHandler.h">
       <Filter>Source Files\Model</Filter>
     </ClInclude>
     <ClInclude Include="ContourFourierDescriptor.h">
       <Filter>Source Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="EditViewDst.h">
+      <Filter>Source Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="EditViewSrc.h">
+      <Filter>Source Files\View</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

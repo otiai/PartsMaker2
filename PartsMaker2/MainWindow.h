@@ -1,7 +1,7 @@
 #ifndef MAIN_WINDOW_H
 #define MAIN_WINDOW_H
 
-#include <QMainWindow>
+#include <QtWidgets/QMainWindow>
 
 class QMdiSubWindow;
 class QAction;

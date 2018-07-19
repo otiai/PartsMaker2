@@ -2,7 +2,7 @@
 #define MODIFIER_WINDOW_H
 
 
-#include <QMainWindow>
+#include <QtWidgets/QMainWindow>
 
 class QActionGroup;
 class QAction;
